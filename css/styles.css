@@ -1,0 +1,210 @@
+body{
+  font-family: "Montserrat";
+}
+
+
+#title {
+  background-color: #ff4c68;
+
+
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+
+}
+
+
+
+.row-space{
+  padding: 4.5rem 0 0 0;
+
+}
+
+button {
+  font-family: "Montserrat";
+  font-weight: 400;
+
+}
+
+.container-fluid{
+  color: #ffffff;
+  padding: 3% 10% 15% 10%;
+
+}
+
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-weight: 600;
+  font-size: 2.5rem;
+
+}
+
+.navbar-nav{
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.Download{
+  margin: 7% 3% 0 0;
+}
+
+.iphone{
+transform: rotate(25deg);
+  width: 60%;
+position: absolute;
+
+}
+
+@media (max-width:991px) {
+
+  #title{
+    text-align: center;
+
+
+  }
+
+  .container-fluid{
+    padding-bottom: 20px;
+  }
+
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    padding-top: 50px;
+  }
+
+  .spacer{
+
+      margin-bottom: 0px;
+
+  }
+
+}
+
+
+.icon{
+color: #ef8172;
+margin-bottom: 1.5rem;
+}
+
+
+.icon:hover{
+  color: #ff4c68
+
+}
+
+#features{
+  padding: 7% 12%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+
+  background-color: #fff
+}
+
+
+.features{
+  padding: 3%;
+}
+h3{
+  font-weight: 600;
+  font-size: 2rem;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+#pricing{
+  text-align: center;
+}
+
+.container{
+  margin-top: 3%;
+}
+
+#testimonials{
+  padding: 5% 0 5% 0;
+  text-align: center;
+  color: #fff;
+  background-color: #ef8172;
+}
+
+.spacer{
+  margin-bottom: 55px;
+}
+
+.carousel-item{
+  padding: 0 13% 0 13%;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+
+.press-image{
+
+width: 15%;
+margin: 30px;
+}
+
+.pricing-column{
+  text-align: center;
+  padding: 3% 2%;
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 5% 20%;
+}
+
+.cta-heading{
+  line-height: 1.5;
+}
+
+#footer{
+  text-align: center;
+  padding: 3%
+}
+
+.icon-space{
+  color: #000;
+  margin: 1%;
+
+}
+
+.icon-space:hover{
+  color: #ff4c68;
+}
